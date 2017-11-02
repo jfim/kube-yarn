@@ -37,8 +37,8 @@ spec:
            - "/tmp/hadoop-config/bootstrap.sh"
            - "-d"
         env:
-        - name: YARN_HEAPSIZE
-          value: 256
+        - name: "YARN_HEAPSIZE"
+          value: "256"
         resources:
           requests:
             memory: "1024Mi"
