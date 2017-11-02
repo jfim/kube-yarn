@@ -60,6 +60,9 @@ spec:
           limits:
             memory: "2048Mi"
             cpu: "2000m"
+        env:
+          - name: YARN_HEAPSIZE
+            value: 256
         volumeMounts:
           - name: hadoop-config
             mountPath: /tmp/hadoop-config

@@ -85,8 +85,8 @@ get-configmap: kubectl
 
 
 ### All apps
-create-apps: create-hdfs create-yarn create-zeppelin
-delete-apps: delete-zeppelin delete-yarn delete-hdfs
+create-apps: create-hdfs create-yarn
+delete-apps: delete-yarn delete-hdfs
 
 
 ### HDFS
